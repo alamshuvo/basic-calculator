@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+   <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <!-- artBoard section -->
+    <!-- key board section -->
+    <div class=" bg-purple-400 flex flex-col gap-5 min-h-screen justify-center items-center"> 
+        <div class="font-bold text-black text-4xl text-center">Calculate Your Numbers</div>
+       <div>
+        <kbd class="kbd">/</kbd>
+        <kbd class="kbd">*</kbd>
+        <kbd class="kbd">-</kbd>
+       </div>
+       <div>
+        <kbd class="kbd">7</kbd>
+        <kbd class="kbd">8</kbd>
+        <kbd class="kbd">9</kbd>
+       </div>
+       <div>
+        <kbd class="kbd">4</kbd>
+        <kbd class="kbd">5</kbd>
+        <kbd class="kbd">6</kbd>
+       </div>
+       <div>
+        <kbd class="kbd">1</kbd>
+        <kbd class="kbd">2</kbd>
+        <kbd class="kbd">3</kbd>
+        <kbd class="kbd">0</kbd>
+       </div>
+       <div>
+        <kbd class="kbd">+</kbd>
+        <kbd class="kbd">-</kbd>
+        <kbd class="kbd">Enter</kbd>
+       </div>
+       
+        <!-- display the value of keyBoard -->
+        <div>
+            <p id="display" class="text-white bg-green-700">00</p>
+        </div>
+       
+  
+   
+</div>
+<script src="./utilities.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>
